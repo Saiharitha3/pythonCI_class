@@ -6,6 +6,17 @@ class PrimesTestCase(unittest.TestCase):
       self.assertTrue(is_prime(5)) 
 	   
    #<Include your test here>
+   def test_is_one_prime(self):
+	   self.assertTrue(is_prime(1))
+
+   def test_is_twentyseven_prime(self):
+	   self.assertTrue(is_prime(27))
+
+   def test_is_negative_prime(self):
+	   self.assertTrue(is_prime(-3))
+
+   def test_is_zero_prime(self):
+	   self.assertTrue(is_prime(0))
 
    
 
